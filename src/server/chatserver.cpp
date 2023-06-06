@@ -20,6 +20,7 @@ Chatserver::Chatserver(EventLoop *loop,
     // 设置线程数量
     _server.setThreadNum(4);
 }
+
 // 开始
 void Chatserver::start()
 {
